@@ -14,24 +14,24 @@ Installation
   * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   * [NodeJS with npm](https://nodejs.org/en/)
     _(at the moment of this proyect is created the node and npm versions are : **NodeJs** LTS v6.11.2, **NPM** v3.10.10)_
-  * [angular-cli](https://cli.angular.io/)
+  * [gulp](https://gulpjs.com/)
   * [Yarn](https://www.npmjs.com/package/yarn) also see [this article](https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm)
 
+- Installing Gulpjs as a global
+  ```bash
+  npm install gulp-cli -g
+  ```
 - Go to your proyect folders
     ```bash
     cd ~/ProyectsPath
     ```
 - Getting Proyect from remote repository
   ```bash
-  git clone git@github.com:pablojavierjimenez/almundoExamenFront.git
+  git clone git@github.com:pablojavierjimenez/basicMimifier.git
   ```
 - After the proyect is downloaded, we go into the proyect folder
   ```bash
-  cd almundoExamenFront
-  ```
-- once there, swith to _develop_ branch
-  ```bash
-  git checkout develop
+  cd basicMinifier
   ```
 - And run Yarn Install
   ```bash
@@ -41,17 +41,8 @@ Installation
 
 After Proyect Installation
 --------------------------
-#### Run Project
-For Development time `npm start` to build the project. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-#### Build
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build. `ng serve --prod`
-Technology Stack
-
-#### Run express server API
-**NOTE:** before rin the expressjs server, you must run `ng build` because expressjs need the _dist/_ folder to serve the statics files.
-
-So to run The expressjs api execute the next command
+#### Run Project and Build
+For Build the project you can run `gulp minify` or just `gulp`.
 ```bash
   $ node server.js
 
