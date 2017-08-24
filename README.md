@@ -43,6 +43,7 @@ After Proyect Installation
 --------------------------
 #### Run Project and Build
 For Build the project you can run `gulp minify` or just `gulp`.
+But for more you most read a [gulp-useref](https://www.npmjs.com/package/gulp-useref) documentation
 ```bash
   $ node server.js
 
