@@ -1,0 +1,18 @@
+{
+  "name": "minify",
+  "version": "0.0.1",
+  "description": "JJ minifier",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jey Jey",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.6.0",
+    "gulp-if": "^2.0.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2"
+  }
+}
